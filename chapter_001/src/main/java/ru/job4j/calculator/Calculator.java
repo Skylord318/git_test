@@ -1,5 +1,6 @@
 package ru.job4j.calculator;
 public class Calculator {
+    //GOOD)
     private double result;
 
     public void add(double first, double second) {
