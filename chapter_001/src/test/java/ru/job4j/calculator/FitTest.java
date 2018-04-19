@@ -10,15 +10,14 @@ public class FitTest {
     @Test
     public void manWeight() {
         Fit fit = new Fit();
-        int weight = (int) fit.manWeight(180);
-        assertThat(weight, is(92));
+        double weight = fit.manWeight(180);
+        assertThat(weight, is(92.0));
     }
 
     @Test
     public void womanWeight() {
         Fit fit = new Fit();
-        int weight = (int) fit.womanWeight(170);
-        assertThat(weight, is(69));
+        double weight = fit.womanWeight(160);
+        assertThat(weight, is(69.0));
     }
-
 }
